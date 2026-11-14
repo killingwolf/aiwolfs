@@ -1,50 +1,53 @@
 username: killingwolf
-updatedAt: 2026-11-14T03:28:26.991Z
-skills: {}
+updatedAt: 2026-11-14T04:17:40.535Z
+skills:
+  teamai:
+    count: 1
+    lastUsed: 2026-11-14T03:29:54.872Z
 interventions:
   sessions: 6
   interrupt: 0
-  toolReject: 0
+  toolReject: 1
   correction: 0
 attended:
   interventions:
     sessions: 6
     interrupt: 0
-    toolReject: 0
+    toolReject: 1
     correction: 0
-  prompts: 5
+  prompts: 11
   tokens:
-    input: 1374
-    output: 213591
-    cacheRead: 34346794
-    cacheCreation: 867292
+    input: 2160
+    output: 334698
+    cacheRead: 41545040
+    cacheCreation: 1673786
   daily:
     2026-11-14:
-      sessionsEnded: 2
-      sessionsSucceeded: 2
-      promptTurns: 4
-      durationMs: 1087211
+      sessionsEnded: 4
+      sessionsSucceeded: 4
+      promptTurns: 11
+      durationMs: 5133362
       sessionsCorrected: 0
-      pricedRequests: 229
-      costMicros: 11605607
-      cacheReadTokens: 34346794
-      cacheEligibleInputTokens: 35215460
+      pricedRequests: 360
+      costMicros: 15746386
+      cacheReadTokens: 41545040
+      cacheEligibleInputTokens: 43220986
       priceVersion: litellm-2026-10-31-b264711
-prompts: 5
+prompts: 11
 tokens:
-  input: 1374
-  output: 213591
-  cacheRead: 34346794
-  cacheCreation: 867292
+  input: 2160
+  output: 334698
+  cacheRead: 41545040
+  cacheCreation: 1673786
 daily:
   2026-11-14:
-    sessionsEnded: 2
-    sessionsSucceeded: 2
-    promptTurns: 4
-    durationMs: 1087211
+    sessionsEnded: 4
+    sessionsSucceeded: 4
+    promptTurns: 11
+    durationMs: 5133362
     sessionsCorrected: 0
-    pricedRequests: 229
-    costMicros: 11605607
-    cacheReadTokens: 34346794
-    cacheEligibleInputTokens: 35215460
+    pricedRequests: 360
+    costMicros: 15746386
+    cacheReadTokens: 41545040
+    cacheEligibleInputTokens: 43220986
     priceVersion: litellm-2026-10-31-b264711
