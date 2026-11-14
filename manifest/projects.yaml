@@ -1,0 +1,37 @@
+# 逻辑项目（服务）声明 —— 项目维度（按目录绑定）。
+# 成员在服务仓库目录里执行 `teamai projects set svc-a` 后，
+# 该目录只同步对应命名空间的资源；与 roles（人维度）互补。
+version: 1
+projects:
+  - id: svc-a
+    name: 服务 A
+    resources:
+      knowledge: [common, svc-a]
+      skills: [common, ecc, mattpocock, svc-a]
+      agents: [common, svc-a]
+      learnings: [svc-a]
+      mcp: [svc-a]
+      env: [svc-a]
+      docs: [svc-a]
+
+  - id: svc-b
+    name: 服务 B
+    resources:
+      knowledge: [common, svc-b]
+      skills: [common, ecc, mattpocock, svc-b]
+      agents: [common, svc-b]
+      learnings: [svc-b]
+      mcp: [svc-b]
+      env: [svc-b]
+      docs: [svc-b]
+
+  - id: svc-c
+    name: 服务 C
+    resources:
+      knowledge: [common, svc-c]
+      skills: [common, ecc, mattpocock, svc-c]
+      agents: [common, svc-c]
+      learnings: [svc-c]
+      mcp: [svc-c]
+      env: [svc-c]
+      docs: [svc-c]

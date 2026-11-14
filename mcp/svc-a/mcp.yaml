@@ -1,0 +1,13 @@
+# 服务 A 专属 MCP（svc-a 命名空间 → 仅张三收到）
+servers:
+  - name: svc-a-db
+    description: 服务 A 数据库查询（只读账号）
+    transport: stdio
+    command: npx
+    args: ["-y", "@acme/svc-a-db-mcp"]
+    env:
+      SVC_A_DB_DSN: "postgresql://readonly@db-svc-a.internal:5432/app"  # 占位，勿放真实密钥
+  - name: svc-a-api
+    description: 服务 A 内部 API 调试
+    transport: http
+    url: https://mcp.example.internal/svc-a
