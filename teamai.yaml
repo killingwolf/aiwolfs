@@ -1,0 +1,13 @@
+team: aiwolfs
+description: killingwolf 的个人 AI 资源仓库 — skills / rules / agents / learnings，多终端共享
+repo: https://github.com/killingwolf/aiwolfs.git
+provider: github
+sharing:
+  rules:
+    enforced: []
+  docs:
+    localDir: ./.teamai/docs
+  env:
+    injectShellProfile: true
+  gitExclude:
+    enabled: true

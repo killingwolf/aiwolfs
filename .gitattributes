@@ -1,0 +1,2 @@
+# 跨平台（WSL / Windows / 服务器）统一使用 LF，避免换行符差异造成整库假 diff
+* text=auto eol=lf
