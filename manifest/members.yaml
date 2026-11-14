@@ -1,0 +1,16 @@
+# 成员 → 角色 的集中分配（管理者控制的权威文件）
+#
+# ⚠️ key 必须是成员的 GitHub 用户名（teamai init 时记录的那个），不是中文显示名。
+#    zhangsan / lisi 是占位符，合入前必须替换为两人的真实 GitHub 用户名，
+#    否则他们会按"未列出成员"处理，只能收到共享资源。
+#
+# 语义：
+# - 此文件存在时，成员角色以此处为准（本人 roles set 会被拒绝）
+# - 未列出的成员按 default 处理（[] = 只收根目录共享资源）
+# - teamai 从远端默认分支读取此文件，改本地 clone 无效；变更走 PR 评审
+version: 1
+members:
+  killingwolf: [svc-a, svc-b, svc-c]   # 管理者：全部服务
+  zhangsan: [svc-a, svc-b]             # 张三：负责服务 A、B（替换为真实 GitHub 用户名）
+  lisi: [svc-b, svc-c]                 # 李四：负责服务 B、C（替换为真实 GitHub 用户名）
+default: []

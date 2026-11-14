@@ -1,0 +1,9 @@
+# 服务 B 专属 MCP（svc-b 命名空间 → 张三、李四收到）
+servers:
+  - name: svc-b-db
+    description: 服务 B 数据库查询（只读账号）
+    transport: stdio
+    command: npx
+    args: ["-y", "@acme/svc-b-db-mcp"]
+    env:
+      SVC_B_DB_DSN: "postgresql://readonly@db-svc-b.internal:5432/app"  # 占位，勿放真实密钥

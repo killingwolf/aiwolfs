@@ -1,0 +1,10 @@
+# 共享 MCP 服务器（根 mcp.yaml，投递给所有成员）
+# 格式为工具中立写法，teamai 下发时自动转成各工具格式
+# （Claude Code → .mcp.json / ~/.claude.json，Codex → TOML）
+servers: []
+# 示例：
+# servers:
+#   - name: team-wiki
+#     description: 团队知识库检索
+#     transport: http
+#     url: https://mcp.example.internal/wiki
