@@ -1,5 +1,5 @@
 username: killingwolf
-updatedAt: 2026-11-14T08:02:31.036Z
+updatedAt: 2026-11-14T11:40:22.401Z
 skills:
   teamai:
     count: 1
@@ -15,39 +15,47 @@ attended:
     interrupt: 1
     toolReject: 1
     correction: 1
-  prompts: 50
+  prompts: 63
   tokens:
-    input: 4068
-    output: 654015
-    cacheRead: 72759150
-    cacheCreation: 3457742
+    input: 4902
+    output: 759483
+    cacheRead: 89351157
+    cacheCreation: 4852724
   daily:
     2026-11-14:
       sessionsEnded: 8
       sessionsSucceeded: 6
-      promptTurns: 48
-      durationMs: 13586308
+      promptTurns: 61
+      durationMs: 17926394
       sessionsCorrected: 1
-      pricedRequests: 678
-      costMicros: 29037575
-      cacheReadTokens: 72759150
-      cacheEligibleInputTokens: 76220960
+      pricedRequests: 817
+      costMicros: 36610039
+      cacheReadTokens: 89351157
+      cacheEligibleInputTokens: 94208783
       priceVersion: litellm-2026-10-31-b264711
-prompts: 50
+prompts: 63
 tokens:
-  input: 4068
-  output: 654015
-  cacheRead: 72759150
-  cacheCreation: 3457742
+  input: 4902
+  output: 759483
+  cacheRead: 89351157
+  cacheCreation: 4852724
 daily:
   2026-11-14:
     sessionsEnded: 8
     sessionsSucceeded: 6
-    promptTurns: 48
-    durationMs: 13586308
+    promptTurns: 61
+    durationMs: 17926394
     sessionsCorrected: 1
-    pricedRequests: 678
-    costMicros: 29037575
-    cacheReadTokens: 72759150
-    cacheEligibleInputTokens: 76220960
+    pricedRequests: 817
+    costMicros: 36610039
+    cacheReadTokens: 89351157
+    cacheEligibleInputTokens: 94208783
     priceVersion: litellm-2026-10-31-b264711
+outcomes:
+  attended:
+    none:
+      sessions: 2
+      tokens:
+        input: 12
+        output: 328
+      interventions: 0
